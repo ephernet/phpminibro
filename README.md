@@ -1,16 +1,9 @@
-# phpminibro
+## phpminibrow
 
 ## Installation
 
 requires a working folder with php.
 DOWNLOAD PHP - http://php.net/downloads.php
-
-[Your folder "what ever you want to call it" (includes phpminibro.exe, minibro.ini, and index.php) ]
-├──phpminibro.exe
-├──index.php
-├──minibro.ini : (phppath=.\php\ -AND- phpport=80)
-├──[PHP 5.4 or > ]
-├──[CUSTOM APPLICATION DEVELOPMENT FOLDER "what ever you want to call it"]
 
 ## Usage
 
@@ -27,12 +20,12 @@ phpminibro requires php version 5.4.0 or greater for the CLI SAPI which provides
 Check out php.net for additional information on the built-in server @ http://php.net/manual/en/features.commandline.webserver.php
 
 Required Folder Structure
-[Your folder "what ever you want to call it" (includes phpminibro.exe, minibro.ini, and index.php) ]
-├──phpminibro.exe
-├──index.php
-├──minibro.ini : (phppath=.\php\ -AND- phpport=80)
-├──[PHP 5.4 or > ]
-├──[CUSTOM APPLICATION DEVELOPMENT FOLDER]
+[Your folder "what ever you want to call it" (includes phpminibro.exe, minibro.ini, and index.php) ]  
+├──phpminibro.exe  
+├──index.php  
+├──minibro.ini : (phppath=.\php\ -AND- phpport=80)  
+├──[PHP 5.4 or greater ]  
+├──[CUSTOM APPLICATION DEVELOPMENT FOLDER]  
 Once you have a working php directory you can point to any other folders in your root from the index.php file.
 
 If phpinfo fails to load, this typically is due to the extensions_dir not pointing correctly in php.ini. ie; extension_dir = ".\ext"
