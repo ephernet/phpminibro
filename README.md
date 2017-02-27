@@ -26,6 +26,7 @@ Required Folder Structure
 ├──minibro.ini : (phppath=.\php\ -AND- phpport=80)  
 ├──[PHP 5.4 or greater ]  
 ├──[CUSTOM APPLICATION DEVELOPMENT FOLDER]  
+
 Once you have a working php directory you can point to any other folders in your root from the index.php file.
 
 If phpinfo fails to load, this typically is due to the extensions_dir not pointing correctly in php.ini. ie; extension_dir = ".\ext"
