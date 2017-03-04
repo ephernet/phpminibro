@@ -6,8 +6,8 @@ requires a working folder with php.
 DOWNLOAD PHP - http://php.net/downloads.php
 
 ## meta
-Always include the X-UA-Compatible in your meta tags.
-echo '<meta http-equiv="X-UA-Compatible" content="IE=Edge" />'
+Always include the X-UA-Compatible in your meta tags.  
+< meta http-equiv="X-UA-Compatible" content="IE=Edge" />  
 
 ## Usage
 
