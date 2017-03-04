@@ -5,6 +5,10 @@
 requires a working folder with php.
 DOWNLOAD PHP - http://php.net/downloads.php
 
+## meta
+Always include the X-UA-Compatible in your meta tags.
+echo '<meta http-equiv="X-UA-Compatible" content="IE=Edge" />'
+
 ## Usage
 
 Phpminibro.exe only works if a php folder in the same working directory or point to an existing php folder in the minibro.ini.
