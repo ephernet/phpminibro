@@ -1,4 +1,4 @@
-## phpminibrow
+## phpminibro
 
 ## Installation
 
